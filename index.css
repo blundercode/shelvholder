@@ -10,8 +10,35 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .center-text {
   font-family: 'Gloria Hallelujah', cursive;
   color:white;
   text-align: center;
+}
+
+.topWord {
+  font-size:100px;
+}
+
+.middleWord {
+  font-size:50px;
+}
+
+.bottomWord{
+  font-size:30px;
+}
+
+@media (max-width: 600px) {
+.topWord {
+  font-size:50px;
+}
+
+.middleWord {
+  font-size:30px;
+}
+
+.bottomWord{
+  font-size:15px;
+}
 }
