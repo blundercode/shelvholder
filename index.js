@@ -1,3 +1,4 @@
+alert('helllo world')
 $(document).ready(function() {
 	// Initiate gifLoop for set interval
 	var refresh;
